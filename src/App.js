@@ -8,6 +8,7 @@ export default function App() {
     <div>
       <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals}/>
       <Row title="Trending Now" fetchUrl={requests.fetchTrending}/>
+        <Row title="Recently-visited" fetchUrl={requests.fetchTrending}/>
       <Row title="Action Movies" fetchUrl={requests.fetchActionMovies} />
     </div>
   )
