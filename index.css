@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, lightblue, lightgreen);
+}
+
+.wrapper {
+  width: 80%;
+  height: 80%;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.btn {
+  margin-top: 3%;
+  margin-left: 85%;
+  padding: 5px;
+}
+.btn:hover {
+  color: blue;
+  cursor: pointer;
+}
+
+ul {
+  width: 100%;
+  font-size: 20px;
+  background-color: #111;
+  padding: 10px;
+}
+li {
+  display: inline;
+  margin: 10px;
+  list-style: none;
+  color: #fff;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
